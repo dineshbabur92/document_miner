@@ -25,7 +25,6 @@ app.layout = html.Div([
 
     html.Div(id='navbar', children=[
         html.Div(id="navbar-title", children=["Document Miner"])
-#         ,html.Img(src="https://www.latentview.com/wp-content/themes/latenview/images/lv-logo.png")
     ]),
     #File upload feature
     dcc.Upload(
